@@ -2,6 +2,7 @@
   "name": "react-from-scratch",
   "version": "0.1.0",
   "private": true,
+  "__//__": "Ajouter -> 'homepage' : 'http://dahisland.github.io/ReactWorldsFlags' pour le deployment. Suppr pour voir les images en local",
   "homepage": "http://dahisland.github.io/ReactWorldsFlags",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -20,6 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "__//__": "predeploy & deploy added after npm i -s gh-pages installation for deployment on gitpages",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
