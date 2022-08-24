@@ -1,0 +1,24 @@
+@import "../utils";
+
+.sortBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: map-get($colors, lightgrey);
+  margin-bottom: 35px;
+  padding: 10px 45px;
+  border-radius: 30px;
+  h2 {
+    font-family: "Cabin Sketch", cursive;
+    font-weight: inherit;
+    color: map-get($colors, sea);
+  }
+  li label {
+    padding: 5px;
+    font-weight: map-get($weight, boldy);
+    color: map-get($colors, sea);
+  }
+  #rangeBar {
+    vertical-align: bottom;
+  }
+}

@@ -1,0 +1,11 @@
+@import "../utils";
+
+main {
+  padding: 20px 0px;
+  .countries {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1%;
+  }
+}

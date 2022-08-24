@@ -1,0 +1,37 @@
+@import "../utils";
+
+.nav_menu {
+  background: map-get($colors, sea);
+  padding: 10px 30px;
+  border-radius: 5px;
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+  }
+  li {
+    width: 100px;
+    padding-top: 5px;
+    text-align: center;
+    color: map-get($colors, snow);
+  }
+}
+
+.nav_menu--active {
+  border-radius: 10px;
+  border-top: 5px solid map-get($colors, snow);
+  font-weight: map-get($weight, boldy);
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.nav_menu--inactive {
+  border-top: 5px solid map-get($colors, none);
+  font-weight: map-get($weight, slim);
+  &:hover {
+    text-decoration: none;
+    font-weight: map-get($weight, boldy);
+  }
+}

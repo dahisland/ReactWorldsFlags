@@ -1,0 +1,28 @@
+$colors: (
+  sea: #3282f7,
+  grass: #68d9a4,
+  night: #000,
+  snow: #fff,
+  lightgrey: #e7e7e7,
+  nightgrey: #adadad,
+  none: transparent,
+);
+
+$weight: (
+  slim: 100,
+  regular: 400,
+  boldy: 700,
+);
+
+@mixin default {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: map-get($weight, regular);
+  font-variant: normal;
+  text-decoration: none;
+  list-style-type: none;
+  border: none;
+  background: none;
+}

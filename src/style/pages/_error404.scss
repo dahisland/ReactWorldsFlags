@@ -1,0 +1,13 @@
+@import "../utils";
+
+.notFound {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: fit-content;
+  text-align: center;
+  h2 {
+    font-family: "Cabin Sketch", cursive;
+    font-size: 5rem;
+    color: map-get($colors, sea);
+  }
+}

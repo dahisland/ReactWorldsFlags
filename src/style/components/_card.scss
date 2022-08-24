@@ -1,0 +1,60 @@
+@import "../utils";
+
+@keyframes card {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  70% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.countries_flag {
+  position: relative;
+  width: 19.2%;
+  margin-bottom: 10px;
+  text-align: center;
+
+  .countries_flag--hover {
+    position: absolute;
+    z-index: 999;
+    border-radius: 5px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: map-get($colors, sea);
+    opacity: 0;
+    color: map-get($colors, snow);
+    box-shadow: 0px 0px 10px map-get($colors, nightgrey);
+    h3 {
+      font-family: "Cabin Sketch", cursive;
+      font-weight: inherit;
+      padding: 8px 5px;
+      margin-bottom: 5px;
+      color: map-get($colors, sea);
+      margin-bottom: 15px;
+      background-color: map-get($colors, snow);
+    }
+  }
+
+  &:hover {
+    .countries_flag--hover {
+      animation: 500ms ease-in-out forwards card;
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px map-get($colors, nightgrey);
+  }
+}

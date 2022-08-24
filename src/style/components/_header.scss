@@ -1,0 +1,39 @@
+@import "../utils";
+
+header {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  opacity: 0.7;
+  h1 {
+    color: map-get($colors, night);
+    opacity: 0.7;
+  }
+  .logo {
+    width: 260px;
+    height: 50px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px 10px;
+    background-color: map-get($colors, night);
+    background-image: url("../../assets/world.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    color: map-get($colors, snow);
+    box-shadow: 1px 3px 5px map-get($colors, sea);
+    p {
+      font-family: "Cabin Sketch", cursive;
+      font-size: 1.5rem;
+      color: map-get($colors, snow);
+    }
+    picture img {
+      width: 100%;
+      height: 30px;
+      object-fit: cover;
+    }
+  }
+}
