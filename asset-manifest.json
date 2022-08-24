@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ReactWorldsFlags/static/css/main.e8c958a0.css",
+    "main.js": "/ReactWorldsFlags/static/js/main.7cc2e1ac.js",
+    "static/media/world.png": "/ReactWorldsFlags/static/media/world.f85ffff8ae9cfe9bc611.png",
+    "index.html": "/ReactWorldsFlags/index.html",
+    "main.e8c958a0.css.map": "/ReactWorldsFlags/static/css/main.e8c958a0.css.map",
+    "main.7cc2e1ac.js.map": "/ReactWorldsFlags/static/js/main.7cc2e1ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8c958a0.css",
+    "static/js/main.7cc2e1ac.js"
+  ]
+}
