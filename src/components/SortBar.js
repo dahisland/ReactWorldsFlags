@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 const SortBar = ({ range, setRange, setRadioValue }) => {
   const continents = ["Asia", "America", "Africa", "Europe", "Oceania", "All"];
 
